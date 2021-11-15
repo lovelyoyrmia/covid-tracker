@@ -1,7 +1,7 @@
 {
   "name": "covid-tracker-main",
   "version": "1.0.0",
-  "description": "",
+  "description": "covid tracker",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
