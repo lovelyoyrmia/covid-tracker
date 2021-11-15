@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get("/", (req, res) => {
   res.status(201).send("hello world!!");
 });
-
+// "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false  npm install --prefix client && npm run build --prefix client"
 app.get("/api/form", (req, res) => {
   console.log(req.body);
   res.status(201).send(req.body);
