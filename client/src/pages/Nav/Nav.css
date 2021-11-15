@@ -1,0 +1,21 @@
+.nav__header {
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    background-color: bisque;
+    justify-content: space-between;
+}
+
+.nav__img--home {
+    width: 150px;
+}
+
+.menu__bars {
+    cursor: pointer;
+}
+
+.menu__nav {
+    display: none;
+}
+

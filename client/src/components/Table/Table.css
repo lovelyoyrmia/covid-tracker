@@ -1,0 +1,29 @@
+.table {
+    margin-top: 20px;
+    overflow: scroll;
+    height: 400px;
+    color: rgb(95, 85, 43);
+}
+
+.table tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table td {
+    padding: 0.5rem;
+}
+
+.flags {
+    padding-top: 8px;
+    padding-right: 5px;
+    width: 30px;
+    height: 20px;
+}
+
+.flags__country {
+    color: rgb(14, 17, 10);
+    width: 150px;
+    display: flex;
+    justify-content: flex-start;
+}
