@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import emailjs from "emailjs-com";
 import axios from "axios";
 
 const FormStyle = styled.form`
